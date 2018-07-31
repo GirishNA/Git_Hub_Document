@@ -54,3 +54,14 @@ Commands to push and pull project to git repository
   
 # To get List all remote branches
   $ git branch -a
+  
+  
+## To Ignore the some files when pushing to git repository
+
+  $touch .gitignore
+  $vim .gitignore
+    Ex:- if you want to ignore the target folder and any .html files
+    
+        $ vim .gitignore
+          target/
+          *.html     
