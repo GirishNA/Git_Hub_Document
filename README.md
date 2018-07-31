@@ -58,9 +58,10 @@ Commands to push and pull project to git repository
   
 ## To Ignore the some files when pushing to git repository
 
-  $touch .gitignore
-  $vim .gitignore
-    Ex:- if you want to ignore the target folder and any .html files
+    $touch .gitignore
+    $vim .gitignore
+      
+      Ex:- if you want to ignore the target folder and any .html files
     
         $ vim .gitignore
           target/
