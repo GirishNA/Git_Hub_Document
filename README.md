@@ -68,4 +68,9 @@ Commands to push and pull project to git repository
           *.html     
           
  ### To ADD Contribuiters/members in git
-      goto -> settings -> collaborators -> psw :- -> search the members based on git id and -> Add collaborators
+      goto -> settings -> collaborators -> psw :- ******  -> search the members based on git id and -> Add collaborators
+      
+### How to ADD GIT Version Control In Intelij IDE Tool
+      goto -> file -> settings -> version Control -> git hub -> select password -> enter :- login and password -> Test -> Apply -> Ok
+      goto -> inteliJ left down -> version control -> log 
+     
