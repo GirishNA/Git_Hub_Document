@@ -66,3 +66,6 @@ Commands to push and pull project to git repository
         $ vim .gitignore
           target/
           *.html     
+          
+ ### To ADD Contribuiters/members in git
+      goto -> settings -> collaborators -> psw :- -> search the members based on git id and -> Add collaborators
