@@ -74,3 +74,13 @@ Commands to push and pull project to git repository
       goto -> file -> settings -> version Control -> git hub -> select password -> enter :- login and password -> Test -> Apply -> Ok
       goto -> inteliJ left down -> version control -> log 
      
+
+### To Solve `remote: Invalid username or password` this issue in Windows pls do this Process
+    ## You may have to check windows credential manager and delete the github entry under
+     control panel -> user accounts -> credential manager -> Windows credentials -> Generic credentials
+
+    ## After this Run These commands
+      git config --global --unset user.name
+      git config --global --unset user.email
+
+
