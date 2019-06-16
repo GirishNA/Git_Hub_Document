@@ -117,12 +117,9 @@ Commands to push and pull project to git repository
 		        git push
 
 ### If We are getting Filename too long Error 
-		ex :- ```error: 
-open("EMR/MyNewWork/common_model/Enterprise-Data-Platform/SourceCode/DataWareHouse_Updated/spark/entertainment/src/main/scala/com/emaar/entertainment/DataIngestion/NavisionIngestionCDCLoadClient.scala"): 
-Filename too long
-error: unable to index file 	
-EMR/MyNewWork/common_model/Enterprise-Data-Platform/SourceCode/DataWareHouse_Updated/spark/entertainment/src/main/scala/com/emaar/entertainment/DataIngestion/NavisionIngestionCDCLoadClient.scala
-fatal: adding files failed```
+		ex :- error:open("EMR/MyNewWork/common_model/Enterprise-Data-Platform/SourceCode/DataWareHouse_Updated/spark/entertainment/src/main/scala/com/emaar/entertainment/DataIngestion/NavisionIngestionCDCLoadClient.scala"): 
+Filename too long error: unable to index file EMR/MyNewWork/common_model/Enterprise-Data-Platform/SourceCode/DataWareHouse_Updated/spark/entertainment/src/main/scala/com/emaar/entertainment/DataIngestion/NavisionIngestionCDCLoadClient.scala
+fatal: adding files failed 
 
 	## Use Below cmd 
 		$ git config core.longpaths true
