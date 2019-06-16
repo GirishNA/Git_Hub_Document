@@ -84,3 +84,45 @@ Commands to push and pull project to git repository
       git config --global --unset user.email
 
 
+### Refresh the Remote branch into local 
+	git remote update origin --prune
+
+
+### Uploading Large size files
+	
+	Note :- If you get these types of issues/warnings follow the bellow steps 
+		`warning: LF will be replaced by CRLF in EMR/MyNewWork/.idea/workspace.xml.`	
+
+	## To get started with Git LFS, the following commands can be used.
+
+		 1. Setup Git LFS on your system. You only have to do this once per
+		    repository per machine:
+
+		        git lfs install
+
+		 2. Choose the type of files you want to track, for examples all XML
+		    FILES / IMAGES, with git lfs track:
+
+		        git lfs track "*.xml"
+
+		 3. The above stores this information in gitattributes(5) files, so
+		    that file need to be added to the repository:
+
+		        git add .gitattributes
+
+		 3. Commit, push and work with the files normally:
+
+		        git add file.xml / git add . 
+		        git commit -m "Add disk image"
+		        git push
+
+### If We are getting Filename too long Error 
+		ex :- ```error: 
+open("EMR/MyNewWork/common_model/Enterprise-Data-Platform/SourceCode/DataWareHouse_Updated/spark/entertainment/src/main/scala/com/emaar/entertainment/DataIngestion/NavisionIngestionCDCLoadClient.scala"): 
+Filename too long
+error: unable to index file 	
+EMR/MyNewWork/common_model/Enterprise-Data-Platform/SourceCode/DataWareHouse_Updated/spark/entertainment/src/main/scala/com/emaar/entertainment/DataIngestion/NavisionIngestionCDCLoadClient.scala
+fatal: adding files failed```
+
+	## Use Below cmd 
+		$ git config core.longpaths true
