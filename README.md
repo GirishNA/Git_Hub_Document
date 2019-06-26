@@ -125,5 +125,15 @@ Commands to push and pull project to git repository
 			DataWareHouse_Updated/spark/entertainment/src/main/scala/com/emaar/entertainment/DataIngestion/NavisionIngestionCDCLoadClient.scala
 			fatal: adding files failed 
 
-	## Use Below cmd 
+	## Use Bellow cmd 
 		$ git config core.longpaths true
+
+### If you get `git another process running ` issue Then run the below cmd 
+	
+		issue ex :- Another git process seems to be running in this repository, e.g. an editor opened by 'git commit'. Please make sure all processes are terminated then try again. If it still fails, a git process
+			    may have crashed in this repository earlier: remove the file manually to continue.
+
+
+	## Use Bellow cmd
+		$ rm -rf .git/index.lock
+
