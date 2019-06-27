@@ -93,7 +93,7 @@ Commands to push and pull project to git repository
 	Note :- If you get these types of issues/warnings follow the bellow steps 
 		`warning: LF will be replaced by CRLF in EMR/MyNewWork/.idea/workspace.xml.`	
 
-	## To get started with Git LFS, the following commands can be used.
+## To get started with Git LFS, the following commands can be used.
 
 		 1. Setup Git LFS on your system. You only have to do this once per
 		    repository per machine:
@@ -125,7 +125,7 @@ Commands to push and pull project to git repository
 			DataWareHouse_Updated/spark/entertainment/src/main/scala/com/emaar/entertainment/DataIngestion/NavisionIngestionCDCLoadClient.scala
 			fatal: adding files failed 
 
-	## Use Bellow cmd 
+## Use Bellow cmd 
 		$ git config core.longpaths true
 
 ### If you get `git another process running ` issue Then run the below cmd 
@@ -134,6 +134,6 @@ Commands to push and pull project to git repository
 			    may have crashed in this repository earlier: remove the file manually to continue.
 
 
-	## Use Bellow cmd
+## Use Bellow cmd
 		$ rm -rf .git/index.lock
 
